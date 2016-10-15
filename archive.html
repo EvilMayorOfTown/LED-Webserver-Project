@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pete's Dark Beautiful Fantasy</title>
+        <link rel="stylesheet" href="css/main.css">
+        
+        <style>
+            body {
+                background-image: url("img/02solareclipse2016.jpg");
+                background-repeat: no-repeat;
+                background-position: top;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+        <script>
+			$(function(){
+				$("#includedContent").load("current-message.html");
+			});
+		</script>
+		
+		<script>
+			$(function(){
+				$("#includedContent2").load("message-log.html");
+			});
+		</script>
+		
+    </head>
+
+    <div>
+    <body>
+        
+        <h1>What is food to one is to others bitter poison</h1>
+            
+            <div id="includedContent"></div>
+            
+                <ul>
+                    <li><u>The Archives</u></li>
+                    <div id="includedContent2"></div>
+                </ul>
+        
+    </body>
+        
+        <div class="nav">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</html>

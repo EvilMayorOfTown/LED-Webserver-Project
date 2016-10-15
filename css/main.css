@@ -1,0 +1,109 @@
+body {
+    background: #fff;
+    color: #ffffff;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    max-width: 960px;
+    padding: 2em 2em 4em;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fffffff;
+    line-height: 2;
+    font-family: "Courier", Courier, monospace;
+    margin: auto;
+    text-align: center;    
+    width: 800px;
+    
+}
+
+li {
+ display:block;
+ padding:10px;
+ color: #FFFFFF;
+}
+
+li a {
+  color: #FFFFFF;
+}
+
+object {
+	color: #FFFFFF;
+}
+
+option {
+    background-color: #7ec0ee;
+}
+
+.entire {
+    margin-top: 200px;    
+    width: 800px;
+}
+
+.rounded {
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    padding: 25px; 
+    width: 200px;
+    height: 100px; 
+    margin: auto;
+    text-align: center;    
+    
+}
+
+.menus {
+    padding: 10px;
+    border: 10px; 
+    color: #FFFFFF;
+    font-size: 12px;
+    background-color: transparent;
+    
+}
+
+.box {
+    border-style: double rounded;
+    padding: 15px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: white;
+  opacity: 1;
+}
+
+.nav {
+ background-color: transparent;
+ height:50px;
+ bottom:0px;
+ position: fixed;     
+ margin: 0;
+ padding: 0;     
+ text-align:center; 
+ width:800px;    
+}
+
+.nav a {
+ font-family:"Courier", Courier, monospace;
+ text-decoration:none;
+ color:#FFFFFF;
+} 
+
+.nav a:hover {
+ color:#BDBDBD;
+}
+

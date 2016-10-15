@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pete's Dark Beautiful Fantasy</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="static/jquery.mobile-1.4.0.min.css">
+        
+        <style>
+            body {
+                background-image: url("img/blue-sky-18.jpg");
+                background-repeat: no-repeat;
+                background-position: top;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+        
+        <script type="text/javascript">    
+			document.getElementById("mybutton").onclick = function() {
+				location.href = "archive.html"	            
+			}	            
+        </script>
+        
+    </head>
+
+    <div class="entire">
+    <body>
+        
+        <h1>message for peter</h1>
+        
+        <div>
+            
+        <form name="myform" class="rounded" action="ledDisplay" method="GET">
+            
+            <div>
+                
+                <input type="text" class="box" name="message" maxlength="1000" placeholder="your message" />
+                
+            </div>
+            
+            <div>
+                
+                <select name="colorMenu" class="menus">
+                    <option value="(255, 255, 255)">color</option>
+                    <option value="(255, 255, 255)">white</option>
+                    <option value="(255, 0, 0)">red</option>
+                    <option value="(0, 255, 0)">lime</option>
+                    <option value="(0, 0, 255)">blue</option>
+                    <option value="(255, 255, 0)">yellow</option>
+                    <option value="(0, 255, 255)">cyan</option>
+                    <option value="(255, 0, 255)">magenta</option>
+                    <option value="(192, 192, 192)">silver</option>
+                    <option value="(128, 128, 128)">gray</option>
+                    <option value="(128, 0, 0)">maroon</option>
+                    <option value="(128, 128, 0)">olive</option>
+                    <option value="(0, 128, 0)">green</option>
+                    <option value="(128, 0, 128)">purple</option>
+                    <option value="(0, 128, 128)">teal</option>
+                    <option value="(0, 0, 128)">navy</option>
+                    
+                </select>
+                <select name="speedMenu" class="menus">
+                    <option value="20">text speed</option>
+                    <option value="5">very slow</option>
+                    <option value="10">slow</option>
+                    <option value="20">medium</option>
+                    <option value="30">fast</option>
+                    <option value="40">very fast</option>
+                </select>
+            </div>
+        
+           <div>  
+			<input type="hidden" VALUE="archive.html">   
+            <input type="submit" class="menus" >
+            </div>
+            
+        </form>
+        
+        </div>
+    </div>
+        
+            <div class="nav">
+
+            <ul>
+              
+                <li><a href="archive.html">Archive</a></li>
+            </ul>
+            </div>
+    </body>
+</html>
