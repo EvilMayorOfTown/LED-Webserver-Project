@@ -1,6 +1,5 @@
 """
 Filename: LED-server.py
-Author:  Peter Tsapatsaris
 
 This program implements a cherrypy webserver that controls a LED-matrix that is attached to the server.  The LED is a 32x16 matrix sold by Adafruit, and this program utilizes an Adafruit Python library to control the LED display.
 
